@@ -17,5 +17,5 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
           #repository: ${{ github.repository }}/atlantis
-          repository: Kong/cloud-atlantis/atlantis
+          repository: kong/cloud-atlantis/atlantis
           tag_with_ref: true
