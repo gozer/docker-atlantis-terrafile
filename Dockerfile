@@ -10,7 +10,3 @@ RUN wget -O- https://github.com/coretech/terrafile/releases/download/v${TERRAFIL
 
 RUN wget -O/usr/local/bin/aws-iam-authenticator https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/download/v${AWS_IAM_AUTHENTICATOR_VERSION}/aws-iam-authenticator_${AWS_IAM_AUTHENTICATOR_VERSION}_linux_amd64 && \
   chmod 755 /usr/local/bin/aws-iam-authenticator
-
-RUN terrafile version 2>/dev/null || true
-RUN aws-iam-authenticator version
-RUN terraform version
