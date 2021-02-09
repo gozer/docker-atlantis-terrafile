@@ -1,4 +1,4 @@
-FROM runatlantis/atlantis:v0.15.0
+FROM runatlantis/atlantis:v0.16.1
 
 ARG TERRAFILE_VERSION=0.6
 ARG AWS_IAM_AUTHENTICATOR_VERSION=0.5.1
