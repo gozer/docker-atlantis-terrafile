@@ -7,7 +7,7 @@ repos:
   - id: check-hooks-apply
   - id: check-useless-excludes
 - repo: https://github.com/Lucas-C/pre-commit-hooks
-  rev: v1.1.9
+  rev: v1.1.10
   hooks:
   - id: forbid-crlf
   - id: remove-crlf
