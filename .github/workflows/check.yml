@@ -21,6 +21,6 @@ jobs:
         curl -L -S -o $GITHUB_WORKSPACE/bin/tfsec https://github.com/liamg/tfsec/releases/download/v0.24.1/tfsec-linux-amd64
         chmod +x $GITHUB_WORKSPACE/bin/tfsec
         echo "::add-path::$GITHUB_WORKSPACE/bin"
-    - uses: pre-commit/action@v3.0.0
+    - uses: pre-commit/action@v3.0.1
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
