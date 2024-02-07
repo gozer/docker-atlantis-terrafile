@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: automerge
-        uses: "pascalgn/automerge-action@v0.15.6"
+        uses: "pascalgn/automerge-action@v0.16.2"
         env:
           MERGE_LABELS: ""
           MERGE_METHOD_LABELS: "automerge=merge,autosquash=squash"
